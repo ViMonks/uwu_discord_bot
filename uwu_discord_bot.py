@@ -7,7 +7,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 client = discord.Client()
 
-target_id = 0 # put target's discord ID as type:int here
+target_id = None # put target's discord ID as type:int here
 
 
 def generateUwU(input_text):
